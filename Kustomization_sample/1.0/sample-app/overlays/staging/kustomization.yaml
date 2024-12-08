@@ -1,4 +1,4 @@
 resources:
   - ../../base/nginx
-patchesStrategicMerge:
-  - deploymentPatchA.yaml
+patches:
+  - path: deploymentPatchA.yaml
